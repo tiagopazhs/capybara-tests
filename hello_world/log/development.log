@@ -52,3 +52,30 @@ Started GET "/welcome/index" for ::1 at 2023-09-03 17:01:32 -0300
   
 ActionController::RoutingError (No route matches [GET] "/welcome/index"):
   
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:07:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 14515)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 15526)
+
+
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:07:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 14076)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 14711)
+
+
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:07:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 14088)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 14723)
+
+
