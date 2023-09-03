@@ -1,0 +1,54 @@
+Started GET "/" for ::1 at 2023-09-03 16:59:54 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/tiagohy/.rvm/gems/ruby-3.1.2/gems/railties-7.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/tiagohy/.rvm/gems/ruby-3.1.2/gems/railties-7.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 636)
+Completed 200 OK in 12ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 7123)
+
+
+Started GET "/welcome" for ::1 at 2023-09-03 17:00:00 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:00:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 142.6ms | Allocations: 93602)
+Completed 200 OK in 155ms (Views: 152.9ms | ActiveRecord: 0.0ms | Allocations: 94680)
+
+
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:00:50 -0300
+  
+SyntaxError (/Users/tiagohy/temp_del/capybara-tests/hello_world/config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+  <h1><%= @message %></h1>
+  ^
+/Users/tiagohy/temp_del/capybara-tests/hello_world/config/routes.rb:9: unterminated string meets end of file):
+  
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:01:13 -0300
+  
+SyntaxError (/Users/tiagohy/temp_del/capybara-tests/hello_world/config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+  <h1><%= @message %></h1>
+  ^
+/Users/tiagohy/temp_del/capybara-tests/hello_world/config/routes.rb:9: unterminated string meets end of file):
+  
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:3: syntax error, unexpected '<', expecting `end'
+config/routes.rb:9: unterminated string meets end of file
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:01:27 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index"):
+  
+Started GET "/welcome/index" for ::1 at 2023-09-03 17:01:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index"):
+  
